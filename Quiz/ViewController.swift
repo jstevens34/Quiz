@@ -11,7 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var currentQuestionLabel: UILabel!
+    @IBOutlet var currentQuestionLabelCenterXConstraint: NSLayoutConstraint!
+    
     @IBOutlet var nextQuestionLabel: UILabel!
+    @IBOutlet var nextQuestionLabelCenterConstraint: NSLayoutConstraint!
+    
     @IBOutlet var answerLabel: UILabel!
     
     let questions: [String] = ["From what is cognac made",
