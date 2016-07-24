@@ -57,7 +57,7 @@
                             <constraint firstItem="tFM-Bs-frw" firstAttribute="top" secondItem="1v7-xs-qeX" secondAttribute="bottom" constant="13" id="59r-oz-958"/>
                             <constraint firstItem="1v7-xs-qeX" firstAttribute="top" secondItem="A3e-sc-dOf" secondAttribute="bottom" constant="174" id="6bC-JD-1u7"/>
                             <constraint firstItem="1v7-xs-qeX" firstAttribute="centerX" secondItem="A3e-sc-dOf" secondAttribute="centerX" id="DOd-yu-tZJ"/>
-                            <constraint firstItem="eAs-sL-Fhv" firstAttribute="centerX" secondItem="A3e-sc-dOf" secondAttribute="centerX" id="EA0-WD-jk1"/>
+                            <constraint firstItem="A3e-sc-dOf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gfg-yq-LbD"/>
                             <constraint firstItem="tFM-Bs-frw" firstAttribute="centerX" secondItem="A3e-sc-dOf" secondAttribute="centerX" id="Myn-Gb-oK6"/>
                             <constraint firstItem="A3e-sc-dOf" firstAttribute="top" secondItem="eAs-sL-Fhv" secondAttribute="bottom" constant="13" id="VjW-OK-Vuf"/>
                             <constraint firstItem="eAs-sL-Fhv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jde-3v-iJH"/>
@@ -69,7 +69,7 @@
                         <outlet property="currentQuestionLabel" destination="eAs-sL-Fhv" id="bWe-ML-AbG"/>
                         <outlet property="currentQuestionLabelCenterXConstraint" destination="jde-3v-iJH" id="Jvp-TD-S5F"/>
                         <outlet property="nextQuestionLabel" destination="HLM-my-oIl" id="w1C-dg-pLw"/>
-                        <outlet property="nextQuestionLabelCenterConstraint" destination="3T1-UJ-riH" id="Umd-vp-fnh"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="3T1-UJ-riH" id="xCA-YY-vL3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
