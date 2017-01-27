@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     var currentQuestionIndex: Int = 0
     
-    @IBAction func showNextQuestion(sender: AnyObject){
+    @IBAction func showNextQuestion(_ sender: AnyObject){
         currentQuestionIndex += 1
         if currentQuestionIndex == questions.count {
             currentQuestionIndex = 0
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func showAnswer(sender: AnyObject){
+    @IBAction func showAnswer(_ sender: AnyObject){
         let answer: String = answers[currentQuestionIndex]
         answerLabel.text = answer
     }
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         nextQuestionLabelCenterXConstraint.constant = -screenWidth
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         //Set the label's initial alpha
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         self.nextQuestionLabelCenterXConstraint.constant = 0
         self.currentQuestionLabelCenterXConstraint.constant += screenwidth
         
-        UIView.animateKeyframesWithDuration(0.5, delay: 0, options: [.CalculationModeLinear], animations: {
+        UIView.animateKeyframes(withDuration: 0.5, delay: 0, options: UIViewKeyframeAnimationOptions(), animations: {
             self.currentQuestionLabel.alpha = 0
             self.nextQuestionLabel.alpha = 1
             
